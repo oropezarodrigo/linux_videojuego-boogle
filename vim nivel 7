@@ -1,0 +1,27 @@
+echo " Permite descomprimir archivos zip. "
+echo " u i w g w "
+echo " n z t u w "
+echo " i e p r q "
+
+echo -n "Escribe la respuesta : "
+
+read respuesta
+
+
+
+
+case ${respuesta} in
+unzip)
+./answ6.sh
+;;
+unzip)
+clear;
+exit
+;;
+*)
+echo "* Tas mal bro* "
+
+esac
+
+
+echo  " Escribe la flecha arriba y enter para seguir con los niveles "
