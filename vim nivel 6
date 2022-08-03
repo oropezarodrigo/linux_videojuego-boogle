@@ -1,0 +1,32 @@
+echo "Visualiza contenido de un fichero; pueden concatenarse varios"
+echo " c e b "
+echo " e t r "
+echo " t f q "
+
+
+
+
+
+
+echo -n "Escribe la respuesta : "
+
+read respuesta
+
+
+
+
+case ${respuesta} in
+cat)
+./cat.sh
+;;
+cat)
+clear;
+exit
+;;
+*)
+echo "* Tas mal bro* "
+
+esac
+
+
+echo  " Escribe la flecha arriba y enter para seguir con los niveles "
