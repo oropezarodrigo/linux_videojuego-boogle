@@ -1,0 +1,41 @@
+
+
+
+
+echo " Cambia los permisos de acceso a un archivo. "
+echo " c d f s "
+echo " h p o m "
+echo " d q x c "
+
+
+
+
+
+
+echo -n "Escribe la respuesta : "
+
+read respuesta
+
+
+
+
+
+
+
+
+case ${respuesta} in
+chmod)
+./chmod.sh
+;;
+chmod)
+clear;
+exit
+;;
+*)
+echo "* Tas mal bro* "
+
+esac
+
+
+
+echo " Escribe la flecha arriba y enter para contuniuar "
