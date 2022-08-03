@@ -1,0 +1,30 @@
+echo " Permite eliminar un directorio vacío "
+echo " r t g f "
+echo " d m e s "
+echo " i w r x "
+
+
+echo -n "Escribe la respuesta : "
+
+read respuesta
+
+
+
+
+
+ case ${respuesta} in
+rmdir)
+./answ2.sh
+
+;;
+rmdir)
+clear;
+exit
+;;
+*)
+echo "* Tas mal bro* "
+
+esac
+
+
+echo  " Escribe la flecha arriba y enter para seguir con los niveles "
