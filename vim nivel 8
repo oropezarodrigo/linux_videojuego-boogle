@@ -1,0 +1,25 @@
+echo " Shell de línea de comando y un script Unix para Drupal. "
+echo " r d s "
+echo " a k ñ "
+echo " u k h "
+
+
+echo -n "Escribe la respuesta : "
+
+read respuesta
+
+
+
+
+case ${respuesta} in
+drush)
+./drush.sh
+;;
+drush)
+clear;
+exit
+;;
+*)
+echo "* Tas mal bro* "
+
+esac
