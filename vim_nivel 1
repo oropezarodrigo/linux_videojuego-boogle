@@ -1,0 +1,28 @@
+echo "Comando que cambia siempre al directorio inmediatamente superior "
+ echo " d f s a "
+ echo " x v e r "
+ echo " c t f e "
+
+echo -n "Escribe la respuesta : "
+
+read respuesta
+
+
+
+
+case ${respuesta} in
+cd)
+./answ2.sh
+
+;;
+cd)
+clear;
+exit
+;;
+*)
+echo "* Tas mal bro* "
+esac
+
+
+echo  " Escribe la flecha arriba y enter para seguir con los niveles "
+
