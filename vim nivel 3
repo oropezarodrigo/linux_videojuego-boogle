@@ -1,0 +1,27 @@
+echo "Comando para búsqueda de ficheros. Tiene decenas de opciones que lo hacen extremadamente potente."
+echo " f g d i"
+echo " c f n h"
+echo " d v d s"
+
+echo -n "Escribe la respuesta : "
+
+read respuesta
+
+
+
+
+case ${respuesta} in
+find)
+./find.sh
+;;
+find)
+clear;
+exit
+;;
+*)
+echo "* Tas mal bro* "
+
+esac
+
+
+echo  " Escribe la flecha arriba y enter para seguir con los niveles "
