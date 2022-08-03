@@ -1,0 +1,30 @@
+echo " Ejecuta un comando con privilegios de superusuario; para que funcione es necesario introducir la clave del usuario actual  "
+echo " s g e e "
+echo " u e y i "
+echo " q d o t "
+
+
+
+
+
+echo -n "Escribe la respuesta : "
+
+read respuesta
+
+
+
+
+case ${respuesta} in
+sudo)
+./sudo.sh
+;;
+sudo)
+clear;
+exit
+;;
+*)
+echo "* Tas mal bro* "
+
+esac
+
+ " Escribe la flecha arriba y enter para seguir con los niveles "
